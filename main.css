@@ -1,0 +1,28 @@
+body {
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+
+.material-icons {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+.firstimage, .headshot {
+  max-width: 100%;
+  height: auto;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  body {
+  	text-align: center;
+  }
+}
